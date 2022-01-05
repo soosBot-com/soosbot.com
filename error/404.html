@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>404</title>
+    <link rel="shortcut icon" href="/error/favicon.png">
+    <link rel="stylesheet" href="/error/error.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="404 ERROR File Not Found">
+    <meta property="og:title" content="404">
+    <meta property="og:description" content="404 ERROR File Not found">
+    <meta property="og:image" content="https://soosbot.com/error/favicon.png">
+</head>
+
+<body>
+    <div>
+        <h2 id="error1">404 ERROR - File Not Found</h2>
+        <p id="error2"></p>
+        <a href="https://soosBot.com">Home Page</a><a href="javascript:history.back()">Go Back</a>
+    </div>
+</body>
+<!-- Script -->
+<script>
+    document.getElementById('error2').innerHTML = `The requested URL, <strong> ${window.location.pathname} </strong> was not found on the server.`;
+</script>
+
+</html>

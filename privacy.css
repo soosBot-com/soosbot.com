@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+body {
+    padding: 3em;
+    background-color: #121212;
+    color: #AFB0B0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}

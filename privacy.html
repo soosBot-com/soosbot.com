@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soosBot Privacy Policy</title>
+    <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+    <h1>soosBot Privacy Policy</h1>
+    <h3>Messages</h3>
+    <p>
+        soosBot's commands work by filtering all messages sent to discord by checking if they start with the prefix from the server.
+        If the prefix is detected, then soosBot will parse the contents of the message and run the command provided.
+
+        soosBot's Highlight feature (beta) will work by checking if the messages's guild id is in the database where highlight phrases are stored.
+        Then if the phrase is in the message, it will then read 3 or 4 messages around the message and send them to the user that had the highlight active.
+    </p>
+    <h3>Reactions</h3>
+    <p>
+        soosBot's Post save feature works by listening to all message reactions and checking if they are the soosBot Save emoji.
+        Then if the message contanins a savable post (sent by the meme or post command), it will save the post to the user that reacted's profile.
+    </p>
+
+    <h3>Command activity</h3>
+    <p>
+        soosBot records all command usage in a postgres database. This is so that any activity of spaming, harrasing, or any misuse of soosBot can be recorded.
+        Users cannot opt-out of this regardless.
+        <br>
+        <br>
+        * The statisticts command allows users to view this database, but with limited access, as only the top 5 commands used, and the count of them is provided. User's IDs are not shared. 
+    </p>
+
+    <h3>
+        Opt-out
+    </h3>
+
+    <p>
+        As of right now, there is no way to opt-out of the message parsing, as it is required for commands to be able to work.
+        For the reactions, as there is not demand to oupt-out of them, it is also not available, but if there is any, it will be implmented through a command.
+    </p>
+
+    <h3>Other than the uses above, soosBot does not store records or logs of messsages or user activity in any way.</h3>
+
+
+    <br>
+    <br>
+    <br>
+</body>
+</html>
